@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   
+        /* Estilos gerais */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+
+        /* Cabeçalho */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #003366; /* Azul escuro */
+            color: #05ff58; /* verde */
+            text-align: center;
+          
+            position: relative;
+            padding: 10px 20px;
+            height: 100px;
+
+            
+           
+        }
+        #menu{
+            list-style-type: none;
+            padding: 0;
+        }
+        #menu li{
+            display: inline-block;
+            margin: 0 100px;
+        }
+        #menu a{
+            
+            color:ivory;
+            text-decoration: none;
+        }
+        #menu a:hover{
+            color: #FFF200;
+
+        }
+        #menu p{
+            display: inline-block;
+            padding: 20px;
+        }
+ /*Menu*/
+ 
+
+
+        /* Nome do site */
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        /* Seção direita do cabeçalho */
+        .header-right {
+            display: flex;
+            align-items: center;
+            background-color: #FFF200; /* Amarelo */
+            padding: 10px 20px ;
+            height: 100px;
+        }
+
+        /* Botão */
+        .header-right button {
+            background-color: #003366; /* Azul escuro */
+            
+            text-decoration: none;
+            border: none;
+            padding: 10px 20px;
+        
+            font-size: 16px;
+        }
+
+        .header-right button:hover {
+            background-color: #002244; /* Tom mais escuro para o efeito hover */
+        }
+        .header-right button a{
+            text-decoration: none;
+            color: ivory;
+        }
+        .A{ padding-top: 20px;}
+        #aa{
+            height: 80px;
+            width: 100px;
+        }
+       
+ 
+        #ab{
+            height: 80px;
+            width: 100px;
+        }
+
+        
+#ba{
+    height: 80px;
+    width: 60px;
+ margin-top: 35px;
+
+
+
+}
+#bb{
+    height: 95px;
+    width: 75px;
+    margin-top: 35px;
+   
+
+}
+#bc{
+    height: 95px;
+    width: 75px;
+    margin-top: 35px;
+}
+#bd{
+height: 80px;
+width: 60px;
+margin-top: 35px;
+
+}
+#ca{
+    height: 80px;
+    width: 50px;
+
+    margin-right: 110px ;
+
+}
+#cb{
+    height: 80px;
+    width: 50px;
+ 
+    margin-left: 120px;
+
+}
+
+
+#da{
+    height: 90px;
+    width: 50px;
+ margin-bottom: 85px;
+ padding-right: 40px;
+}
+        
+#db{
+    height: 110px;
+    width: 45px;
+    margin-bottom: 50px;
+}
+#dc{
+    height: 130px;
+    width: 85px;
+    margin-bottom: 60px;
+}
+#dd{
+    height: 110px;
+    width: 45px;
+    margin-bottom: 50px;
+}
+
+#de{
+    height: 90px;
+    width: 50px;
+    margin-bottom: 85px;
+    padding-left: 40px;
+}
+
+#ea{
+    height: 180px;
+    width: 90px;
+}
+#eb{
+    height: 185px;
+    width: 20px;
+}
+
+
+
+#ec{
+    margin-right: 25px;
+    margin-bottom: 100px;
+}
+#ed{
+    margin-bottom: 100px;
+    margin-left: 25px;
+}
+
+#ee{
+    height: 185px;
+    width: 20px;
+}
+#ef{
+    height: 185px;
+    width: 90px;
+}
+
+#fa{
+    height: 195px;
+    width: 55px;
+}
+#fb{
+    height: 195px;
+    width: 20px;
+    margin-right: 65px;
+
+}
+#fd{
+    height: 195px;
+    width: 55px;
+}
+#fc{
+    height: 195px;
+    width: 20px;
+    margin-left: 65px;
+}
+
+
+#margin{
+    height: 60px;
+    width: 100%;
+}
+
+
+.footer{
+    
+            background-color: #fffb15;
+            color: #002244;
+            text-align: center;
+            padding: 3px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header id="header">
+        <div class="logo">FisioAtlas</div>
+        <ul id="menu">
+           
+       <p><a href="index.html">Voltar</a></p>
+              
+              <p><a href="Atualizações.html">Atualizações</a></p>
+              
+                <p><a href="Quem-somos.html">Quem Somos</a></p>
+           
+                <p><a href="conheça-o-autor.html">Conheça o Autor</a></p>
+           
+            
+        </ul>
+        <div class="header-right">
+          
+            <button style="text-decoration: ivory;"><a href="http://">Nos Avalie</a></button>
+        </div>
+        
+    </header>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <div class="A">
+        <center>
+<img id="aa" src="01.png" alt="" onclick="al1()">
+<script>
+    function al1() {
+        Swal.fire({
+  title: "Trapézio",
+  text: "É um músculo amplo, plano e triangular. Recebe este nome por seu formato. Estende-se desde o osso occipital até a 12º vértebra torácica revestindo, desta forma, a parte posterior do pescoço, superior e dorsal dos ombros e parte superior do dors",
+  footer: '<a href="https://sbcoc.org.br/trapezio-entenda-a-importancia-deste-musculo-para-os-ombros/">Saiba Mais</a>'
+});
+    }
+</script>
+
+<img id="ab" src="03.png" alt="" onclick="al1()">
+<script>
+    function al1() {
+        Swal.fire({
+  title: "Trapézio",
+  text: "É um músculo amplo, plano e triangular. Recebe este nome por seu formato. Estende-se desde o osso occipital até a 12º vértebra torácica revestindo, desta forma, a parte posterior do pescoço, superior e dorsal dos ombros e parte superior do dors",
+  footer: '<a href="https://sbcoc.org.br/trapezio-entenda-a-importancia-deste-musculo-para-os-ombros/">Saiba Mais</a>'
+});
+    }
+</script>
+</center>
+    </div>
+
+<div class="B">
+    <center>
+<img id="ba" src="04.png" onclick="al2()">
+<script>
+    function al2() {
+        Swal.fire({
+  title: "Deltoides",
+  text: "é um músculo do ombro com três porções, responsável por diversos movimentos como abdução, flexão e extensão do braço. Ele confere o formato arredondado ao ombro e é fundamental para a força e mobilidade do membro superior.",
+  footer: '<a href="http://sanarmed.com/resumo-sobre-musculos-do-ombro-deltoide-supraespinhal-infraespinhal-e-mais/">Saiba Mais</a>'
+});
+    }
+</script>
+
+<img id="-" src="02.png" alt="">
+<img id="bb" src="05.png" alt="" onclick="al3()">
+<script>
+    function al3() {
+        Swal.fire({
+  title: "Peitoral Maior",
+  text: "É o músculo mais superficial e maior da região, e é responsável por várias funções, como: Adução, Rotação interna, Flexão do ombro, Elevação frontal, Estabilidade da articulação do ombro e cervical",
+  footer: '<a href="https://www.brunoakio.com/post/les%C3%A3o-do-peitoral-maior#:~:text=O%20m%C3%BAsculo%20peitoral%20maior%2C%20ou,ao%20%C3%BAmero%2C%20osso%20do%20bra%C3%A7o.">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="bc" src="06.png" alt="" onclick="al3()">
+<script>
+    function al3() {
+        Swal.fire({
+  title: "Peitoral Maior",
+  text: "É o músculo mais superficial e maior da região, e é responsável por várias funções, como: Adução, Rotação interna, Flexão do ombro, Elevação frontal, Estabilidade da articulação do ombro e cervical",
+  footer: '<a href="https://www.brunoakio.com/post/les%C3%A3o-do-peitoral-maior#:~:text=O%20m%C3%BAsculo%20peitoral%20maior%2C%20ou,ao%20%C3%BAmero%2C%20osso%20do%20bra%C3%A7o.">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="-" src="02.png" alt="">
+<img id="bd" src="07.png" alt="" onclick="al2()">
+<script>
+    function al2() {
+        Swal.fire({
+  title: "Deltoides",
+  text: "é um músculo do ombro com três porções, responsável por diversos movimentos como abdução, flexão e extensão do braço. Ele confere o formato arredondado ao ombro e é fundamental para a força e mobilidade do membro superior.",
+  footer: '<a href="https://sanarmed.com/resumo-sobre-musculos-do-ombro-deltoide-supraespinhal-infraespinhal-e-mais/">Saiba Mais</a>'
+});
+    }
+</script>
+</center>
+</div>
+<div class="C">
+    <center>
+        <img id="ca" src="08.png" alt="" onclick="al4()">
+        <script>
+            function al4() {
+                Swal.fire({
+          title: "Bíceps",
+          text: "Músculo composto por duas cabeças, a curta e a longa, que se originam no ombro e se conectam ao antebraço. Participa em vários movimentos do membro superior, atuando na articulação do ombro e na articulação do cotovelo ",
+          footer: '<a href="https://kenhub.com/pt/library/anatomia/musculo-bicipite-braquial">Saiba Mais</a>'
+        });
+            }
+        </script>
+ 
+    <img id="cb" src="14.png" alt="" onclick="al4()">
+    <script>
+        function al4() {
+            Swal.fire({
+      title: "Bíceps",
+      text: "Músculo composto por duas cabeças, a curta e a longa, que se originam no ombro e se conectam ao antebraço. Participa em vários movimentos do membro superior, atuando na articulação do ombro e na articulação do cotovelo ",
+      footer: '<a href="https://kenhub.com/pt/library/anatomia/musculo-bicipite-braquial">Saiba Mais</a>'
+    });
+        }
+    </script>
+    
+
+    </center>
+
+</div>
+<div class="D">
+    <center>
+  <img id="da" src="15.png" alt="" onclick="al5()">
+  <script>
+    function al5() {
+        Swal.fire({
+  title: "Braquirradial e MSD",
+  text: "se origina na crista supracondilar lateral do úmero e se insere no processo estiloide do rádio. O músculo flexor superficial dos dedos (MSD) é o maior músculo do antebraço e forma uma camada muscular intermediária entre os grupos musculares superficiais e profundos ",
+  footer: '<a href="https://citogenetica.ufes.br/pt-br/antebraco-e-mao">Saiba Mais</a>'
+});
+    }
+</script>
+  <img id="-" src="02.png" alt="">
+<img id="db" src="16.png" alt="" onclick="al6()"> 
+<script>
+    function al6() {
+        Swal.fire({
+  title: "Abdominal lateral",
+  text: "Os músculos abdominais laterais (oblíquo externo, interno e transverso) compõem as laterais do abdômen, auxiliando na rotação do tronco, flexão lateral e estabilização da coluna vertebral.",
+  footer: '<a href="https://www.kenhub.com/pt/library/anatomia/musculos-abdominais-laterais">Saiba Mais</a>'
+});
+    }
+</script>
+    <img id="dc" src="17.png" alt="" onclick="al7()">
+    <script>
+        function al7() {
+            Swal.fire({
+      title: "Músculos Abdominais",
+      text: "Os músculos abdominais são um grupo muscular que envolve a região abdominal, sendo responsáveis por diversas funções como: proteção dos órgãos internos, estabilização da coluna vertebral, auxílio na respiração e na postura.",
+      footer: '<a href="https://www.kenhub.com/pt/library/anatomia/parede-abdominal">Saiba Mais</a>'
+    });
+        }
+    </script>
+<img id="dd" src="17-b.png" alt="" onclick="al6()">
+<script>
+    function al6() {
+        Swal.fire({
+  title: "Abdominal Lateral",
+  text: "Os músculos abdominais laterais (oblíquo externo, interno e transverso) compõem as laterais do abdômen, auxiliando na rotação do tronco, flexão lateral e estabilização da coluna vertebral.",
+  footer: '<a href="https://www.kenhub.com/pt/library/anatomia/musculos-abdominais-laterais">Saiba Mais</a>'
+});
+    }
+</script>
+    <img id="-" src="02.png" alt="">
+    <img id="de" src="18.png" alt="" onclick="al5()">
+    <script>
+        function al5() {
+            Swal.fire({
+      title: "Braquirradial e MSD",
+      text: "se origina na crista supracondilar lateral do úmero e se insere no processo estiloide do rádio. O músculo flexor superficial dos dedos (MSD) é o maior músculo do antebraço e forma uma camada muscular intermediária entre os grupos musculares superficiais e profundos ",
+      footer: '<a href="https://citogenetica.ufes.br/pt-br/antebraco-e-mao">Saiba Mais</a>'
+    });
+        }
+    </script>
+   
+    </center>
+
+</div>
+<center>
+<div class="E">
+<img id="ea" src="19.png" alt="" onclick="al8()">
+<script>
+    function al8() {
+        Swal.fire({
+  title: "Quadríceps",
+  text: "O quadríceps é o maior e mais forte músculo do corpo humano. Ele é composto por quatro ventres musculares: Reto femoral, Vasto lateral, Vasto medial, Vasto intermédio.",
+  footer: '<a href="https://www.clinicavicci.com.br/conheca-os-musculos-que-compoem-a-musculatura-da-coxa-e-dicas-de-prevencao/">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="eb" src="20.png" alt="" onclick="al9()">
+<script>
+    function al9() {
+        Swal.fire({
+  title: "Sartório",
+  text: "O músculo sartório é um músculo longo e estreito localizado na coxa, que cruza a coxa obliquamente da parte externa para a interna. Ele é conhecido por ser o músculo mais longo do corpo humano.",
+  footer: '<a href="https://www.clinicavicci.com.br/conheca-os-musculos-que-compoem-a-musculatura-da-coxa-e-dicas-de-prevencao/">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="ec" src="21.png" alt="" onclick="al10()">
+<script>
+    function al10() {
+        Swal.fire({
+  title: "Muscúlos Adutores",
+  text: "são um conjunto de cinco músculos que se estendem pela face interna da coxa, desde a virilha até o joelho, sendo eles: pectíneo; músculo adutor curto e adutor longo (que vão desde a pélvis até ao fêmur); adutor magno; e gracilis, que vai desde a pélvis até à face interna do joelho.",
+  footer: '<a href="https://www.kenhub.com/pt/library/anatomia/adutores-do-quadril">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="ed" src="22.png" alt="" onclick="al10()">
+<script>
+    function al10() {
+        Swal.fire({
+  title: "Músculos Adutores",
+  text: "são um conjunto de cinco músculos que se estendem pela face interna da coxa, desde a virilha até o joelho, sendo eles: pectíneo; músculo adutor curto e adutor longo (que vão desde a pélvis até ao fêmur); adutor magno; e gracilis, que vai desde a pélvis até à face interna do joelho.",
+  footer: '<a href="https://www.kenhub.com/pt/library/anatomia/adutores-do-quadril">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="ee" src="24.png" alt=""onclick="al9()">
+<script>
+    function al9() {
+        Swal.fire({
+  title: "Sartório",
+  text: "O músculo sartório é um músculo longo e estreito localizado na coxa, que cruza a coxa obliquamente da parte externa para a interna. Ele é conhecido por ser o músculo mais longo do corpo humano.",
+  footer: '<a href="https://www.clinicavicci.com.br/conheca-os-musculos-que-compoem-a-musculatura-da-coxa-e-dicas-de-prevencao/">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="ef" src="23.png" alt="" onclick="al8()">
+<script>
+    function al8() {
+        Swal.fire({
+  title: "Quadríceps",
+  text: "O quadríceps é o maior e mais forte músculo do corpo humano. Ele é composto por quatro ventres musculares: Reto femoral, Vasto lateral, Vasto medial, Vasto intermédio.",
+  footer: '<a href="https://www.clinicavicci.com.br/conheca-os-musculos-que-compoem-a-musculatura-da-coxa-e-dicas-de-prevencao/">Saiba Mais</a>'
+});
+    }
+</script>
+</center>
+
+<center>
+    <div class="F">
+<img id="fa" src="25.png" alt="" onclick="al11()">
+<script>
+    function al11() {
+        Swal.fire({
+  title: "Tibial Anterior",
+  text: "é responsável por dorsiflexionar o pé na articulação talocrural e inverter o pé na articulação subtalar. Ele também ajuda a estabilizar o tornozelo e o arco medial do pé, o que é importante para manter a postura correta e prevenir lesões.",
+  footer: '<a href="https://www.laviesports.com.br/m/blog/65736a2e30044648940ece31/tibial-anterior-importancia-do-fortalecimento-do-pe-da-corredora#:~:text=Previne%20les%C3%B5es:%20O%20fortalecimento%20do,seja%20absorvido%20de%20maneira%20eficiente.">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="fb" src="26.png" alt="" onclick="al12()">
+<script>
+    function al12() {
+        Swal.fire({
+  title: "Sóleo",
+  text: "O sóleo é um músculo da panturrilha que tem várias funções importantes, como: Sustentáculo do corpo, Movimentação do pé, Flexão plantar, Elevação do calcanhar, Circulação sanguínea",
+  footer: '<a href="https://minutosaudavel.com.br/musculo-soleo/">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="-" src="02.png" alt="">
+
+</script>
+<img id="fc" src="28.png" alt="" onclick="al12()">
+<script>
+    function al12() {
+        Swal.fire({
+  title: "Sóleo",
+  text: "O sóleo é um músculo da panturrilha que tem várias funções importantes, como: Sustentáculo do corpo, Movimentação do pé, Flexão plantar, Elevação do calcanhar, Circulação sanguínea",
+  footer: '<a href="https://minutosaudavel.com.br/musculo-soleo/">Saiba Mais</a>'
+});
+    }
+</script>
+<img id="fd" src="27.png" alt="" onclick="al11()">
+<script>
+    function al11() {
+        Swal.fire({
+  title: "Tibial Anterior",
+  text: "é responsável por dorsiflexionar o pé na articulação talocrural e inverter o pé na articulação subtalar. Ele também ajuda a estabilizar o tornozelo e o arco medial do pé, o que é importante para manter a postura correta e prevenir lesões.",
+  footer: '<a href="https://www.laviesports.com.br/m/blog/65736a2e30044648940ece31/tibial-anterior-importancia-do-fortalecimento-do-pe-da-corredora#:~:text=Previne%20les%C3%B5es:%20O%20fortalecimento%20do,seja%20absorvido%20de%20maneira%20eficiente.">Saiba Mais</a>'
+});
+    }
+</script>
+
+    </div>
+</center>
+</div>
+
+    <div id="margin">
+        <img src="02.png" alt="">
+    </div>
+<footer class="footer">
+    <p>&copy; 2024 FisioAtlas | todos os direitos reservados</p>
+</footer>
+
+
+</body>
+</html>

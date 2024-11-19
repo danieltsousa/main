@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FisioAtlas - Guia de Mobilidade Humana</title>
+    <style>
+        /* Estilos gerais */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Cabeçalho */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #003366; /* Azul escuro */
+            color: #05ff58; /* verde */
+            text-align: center;
+          
+            position: relative;
+            padding: 10px 20px;
+            height: 100px;
+
+            
+           
+        }
+       
+
+
+
+#menu{
+            list-style-type: none;
+            padding: 0;
+        }
+        #menu li{
+            display: inline-block;
+            margin: 0 100px;
+        }
+        #menu a{
+            
+            color:ivory;
+            text-decoration: none;
+        }
+        #menu a:hover{
+            color: #FFF200;
+
+        }
+        #menu p{
+            display: inline-block;
+            padding: 20px;
+        }
+ /*Menu*/
+ 
+
+
+        /* Nome do site */
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Seção direita do cabeçalho */
+        .header-right {
+            display: flex;
+            align-items: center;
+            background-color: #FFF200; /* Amarelo */
+            padding: 10px 20px ;
+            height: 100px;
+        }
+
+        /* Botão */
+        .header-right button {
+            background-color: #003366; /* Azul escuro */
+            
+            text-decoration: none;
+            border: none;
+            padding: 10px 20px;
+        
+            font-size: 16px;
+        }
+
+        .header-right button:hover {
+            background-color: #002244; /* Tom mais escuro para o efeito hover */
+        }
+        .header-right button a{
+            text-decoration: none;
+            color: ivory;
+        }
+
+
+        .slider{
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+        }
+        .slides{
+            display: flex;
+            transition: transform 1s ease;
+        }
+        .slide{
+            min-width: 100%;
+            height: 100%;
+            
+        }
+        .slide img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @keyframes slideAnimation{
+            0% {transform: translateX(0);}
+            20% {transform: translateX(0);} 
+            25% {transform: translateX(-100%);} 
+            45% {transform: translateX(-100%);}
+             50% {transform: translateX(-200%);}
+             70% {transform: translateX(-200%);}
+             75% {transform: translateX(-300);}
+             100% {transform: translateX(-300);}
+        }
+
+        .slides{
+            animation: slideAnimation 12s infinite;
+        }
+
+
+
+
+        /* Conteúdo principal */
+        main {
+            font-size: xx-large;
+            color:  #05ff58;
+            padding: 20px;
+        
+          
+            
+            background: linear-gradient(to bottom, #003366, #6578a1)
+        }
+        
+
+        /* Estilo do parágrafo adicional */
+        .sub-title {
+            font-size: 18px;
+            font-weight: normal;
+            margin: 10px 0;
+
+        }
+
+.main-b{
+    box-shadow: 0 0 20px rgb(55, 112, 22), 0 0  30px rgb(48, 151, 71);
+    color: whitesmoke;
+    background-color: #003366;
+    height: 300px
+
+
+}
+.main-b p{
+    padding-left: 5%;
+    font-size: x-large;
+}
+    
+        .footer{
+            background-color: #fffb15;
+            color: #002244;
+            text-align: center;
+    padding: 1px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+
+       
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="header">
+        <div class="logo">FisioAtlas</div>
+        <ul id="menu">
+           
+       
+              <p><a href="Atualizações.html">Atualizações</a></p>
+           
+                <p><a href="#">Referências</a></p>
+              
+                <p><a href="Quem-somos.html">Quem Somos</a></p>
+           
+                <p><a href="#">Conheça o autor</a></p>
+           
+            
+        </ul>
+        <div class="header-right">
+          
+            <button style="text-decoration: ivory;"><a href="http://">Nos Avalie</a></button>
+        </div>
+        
+    </header>
+
+
+
+    <main id="content">
+        <center>
+        <h1>Bem-vindo ao FisioAtlas</h1>
+    </center>
+        <p class="sub-title">Ferramenta de instrução ao tratamento da mobilidade humana para todos</p>
+       
+        <p>Seu guia completo para mobilidade humana, saúde e bem-estar. Explore nossos recursos e encontre o melhor caminho para uma vida saudável e ativa.
+
+        
+        <p>
+            Descubra uma maneira mais simples de aprender a cuidar do corpo humano.
+        </p>     
+
+      
+    </main>
+    <div class="slider">
+        <div class="slides">
+        <div class="slide">
+        <img src="img-1.jpg" alt="">
+        
+        </div>
+        <div class="slide">
+            <img src="img-2.jpg" alt="">
+            
+            </div>
+            <div class="slide">
+                <img src="img-3.jpg" alt="">
+                
+                </div>
+        </div>
+            </div>
+
+            <div class="main-b">
+<h1>
+    <center>
+    Como Funciona
+</center>
+</h1>
+<p>
+    Selecione os mapas anatômicos disponíveis, clique em uma área específica, <br>
+     e é disponibilizado um resumo sobre aquele músculo e sugestões de sites com mais informações <br> É simples!!!
+</p>
+<div>
+    <a href="map.html" style="text-decoration: ivory;">
+        <center>
+        <button id="btn-p" style="background-color: #00ff40 ; color: mediumblue; border: solid mediumblue 2px; padding: 10px 20px; cursor: pointer; font-size: 16px;">
+            Acesse o Mapa
+        </button>
+        </center>
+    </a>
+    </div>
+            </div> <br>
+   
+        
+    
+<footer class="footer">
+    <p>&copy; 2024 FisioAtlas | todos os direitos reservados</p>
+</footer>
+
+
+</body>
+</html>
